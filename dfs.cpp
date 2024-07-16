@@ -1,3 +1,7 @@
+#include<bits/stdc++.h>
+#include<unordered_map>
+#include<list>
+#include<set>
 
 void dfscall(int node, unordered_map<int, list<int>> &adj, unordered_map<int, bool> &visited, vector<int> &component)
 {
